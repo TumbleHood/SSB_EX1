@@ -107,6 +107,7 @@ TEST_CASE("Good Input"){
                                          "/\\/\\/"
                                          "/\\\\\\/"
                                          "/////"));
+    CHECK(ns(mat(1001, 1001, '0', '0').length() == 1001 * 1001));
 }
 
 TEST_CASE("Bad Inputs"){
